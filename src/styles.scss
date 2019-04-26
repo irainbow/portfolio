@@ -4,7 +4,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    img.logo {
+        height: 75px;
+    }
 }
+
 ul .secondaryNav{
     display: flex;
     flex-direction: column;
@@ -13,10 +17,12 @@ ul .secondaryNav{
 h1{
     font-family: 'Life Savers', cursive;
     display: inline-block;
+    height: 75px;
     hr{
         width: 100%;
         border: none;
         height: 4px;
+        margin: 5px 0px;
         /* Set the hr color */
         color: #333; /* old IE */
         background-color: #333; /* Modern Browsers */
