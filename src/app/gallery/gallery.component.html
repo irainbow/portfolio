@@ -4,9 +4,8 @@
    <ul class="images">
         <li class="galleryImage" *ngFor="let image of galleryContent">
           <p class="galleryImage">
-            <img src="assets/images/grape_icon.svg" alt="grapes">
-            {{ image.pieceTitle }}
-            foo
+              {{image.fileName}}
+            <img src="assets/images/{{ image.path }}{{image.fileName}}_thumb" />
           </p>
         </li>
       </ul>
