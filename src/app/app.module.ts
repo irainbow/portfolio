@@ -8,13 +8,15 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryService } from './gallery.service';
 import { ContactComponent } from './contact/contact.component';
 
+import { ImageThumbnail } from './pipes/image-thumbnail.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactComponent,
-    GalleryComponent
+    GalleryComponent,
+    ImageThumbnail
   ],
   imports: [
     BrowserModule,
